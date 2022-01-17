@@ -24,9 +24,9 @@ def find_jobs():
                     f.write(f"More info:{more_info}")
                 print(f"file saved: {index}")
 
- if __name__ ==' __main__':
+if __name__ ==' __main__':
      while True:
         find_jobs()
-         time_wait=10
-         print(f'waiting {time_wait} minutes.....')
-         time.sleep(time_wait)
+        time_wait=10
+        print(f'waiting {time_wait} minutes.....')
+        time.sleep(time_wait)
